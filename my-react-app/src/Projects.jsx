@@ -2,6 +2,7 @@ import React from 'react';
 import './Styles/Projects.css';
 import keja from './assets/kejaprime.jpeg';
 import shop from './assets/shop.jpeg';
+import shec from './assets/shec.jpeg';
 
 const Projects = () => {
   return (
@@ -9,7 +10,7 @@ const Projects = () => {
     <div className='top-curve-section'>
 
     </div>
-    <section className='projects-section text-center'>
+    <section id='projects' className='projects-section text-center'>
       <div className='container py-5'>
         <h2 className='mb-4'>My Current Live Projects</h2>
         <p className='lead text-muted'>Here are a few projects I have created using my knowledge in React.js</p>
@@ -37,6 +38,20 @@ const Projects = () => {
                   in their local communities and buy from sellers. The project enables easy access to local products, promoting local e-commerce and convinience.
                 </p>
                 <a href="https://shop-mtaani-742u.vercel.app/" className='btn btn-light btn-sm' target="_blank" rel="noopener noreferrer"> View project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='col-md-4 mb-4'>
+          <div className='project-card'>
+            <img src={shec} alt="she codes website" className='project-img' />
+            <div className='project-overlay'>
+              <div className='content'>
+                <h5>She Codes</h5>
+                <p>I designed and developed this interactive website to promote she codes, a website to empower women to code. 
+                  I built it using HTML, javascript, and Bootstrap
+                </p>
+                <a href="https://eshihanda.github.io/my-workspace/" className='btn btn-light btn-sm' target="_blank" rel="noopener noreferrer"> View project</a>
               </div>
             </div>
           </div>

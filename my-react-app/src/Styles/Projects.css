@@ -37,7 +37,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(21, 0, 212, 0.85);
+  background: rgb(127, 64, 151);
   color: white;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
