@@ -1,14 +1,14 @@
 .navbar-brand {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-}
-.navbar-brand:hover {
-  text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.4);
-  transition: all 0.3s ease;
-}
-.custom-navbar .nav-link {
-    color: black !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   }
-  
-  .custom-navbar .nav-link:hover {
-    color: #03020e !important; /* optional: darker on hover */
+  .navbar-brand:hover {
+    text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease;
   }
+  .custom-navbar .nav-link {
+      color: white !important;
+    }
+    
+    .custom-navbar .nav-link:hover {
+      color: #03020e !important; /* optional: darker on hover */
+    }

@@ -1,70 +1,59 @@
 .projects-section {
-  background-color: #ffffff;
-  position: relative;
-  z-index: 1;
-}
-.top-curve-section {
-  height: 80px;
-  background-color: #ffffff;
-  border-bottom-left-radius: 100% 100%;
-  border-top-right-radius: 100% 100%;
-}
-.bottom-curve-section {
-  height: 80px;
-  background-color: #ffffff;
-  border-top-left-radius: 100% 100%;
-  border-top-right-radius: 100% 100%;
-}
-.project-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-.project-card:hover {
-  transform: scale(1.02);
-}
-.project-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.project-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgb(127, 64, 151);
-  color: white;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
+    position: relative;
+    z-index: 1;
+  }
 
-.project-card:hover .project-overlay {
-  opacity: 1;
-}
-
-.content h5 {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.content p {
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-}
-
-.content .btn {
-  background-color: #ffffff;
-  color: #1500d4;
-  font-weight: 600;
-  border: none;
-}
+  .project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .project-card:hover {
+    transform: scale(1.02);
+  }
+  .project-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:  #203a43;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .project-card:hover .project-overlay {
+    opacity: 1;
+  }
+  
+  .content h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .content p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .content .btn {
+    background-color: #ffffff;
+    color: #2c2a3d;
+    font-weight: 600;
+    border: none;
+  }

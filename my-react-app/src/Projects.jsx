@@ -1,7 +1,7 @@
 import React from 'react';
 import './Styles/Projects.css';
 import keja from './assets/kejaprime.jpeg';
-import shop from './assets/shop.jpeg';
+import shopi from './assets/shopi.jpeg';
 import shec from './assets/shec.jpeg';
 
 const Projects = () => {
@@ -13,7 +13,7 @@ const Projects = () => {
     <section id='projects' className='projects-section text-center'>
       <div className='container py-5'>
         <h2 className='mb-4'>My Current Live Projects</h2>
-        <p className='lead text-muted'>Here are a few projects I have created using my knowledge in React.js</p>
+        <p className='lead'>Here are a few projects I have created using my knowledge in React.js</p>
       </div>
       <div className='row'>
         <div className='col-md-4 mb-4'>
@@ -30,7 +30,7 @@ const Projects = () => {
         </div>
         <div className='col-md-4 mb-4'>
           <div className='project-card'>
-            <img src={shop} alt="shop-mtaani website" className='project-img' />
+            <img src={shopi} alt="shop-mtaani website" className='project-img' />
             <div className='project-overlay'>
               <div className='content'>
                 <h5>KejaPrime</h5>

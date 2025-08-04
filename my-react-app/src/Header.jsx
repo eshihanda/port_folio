@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Navbar variant="dark" expand="lg" sticky="top" className='custom-navbar'>
         <Container>
-            <Navbar.Brand style={{ color: 'black' }} href="#">Monica Eshihanda</Navbar.Brand>
+            <Navbar.Brand style={{ color: 'white' }} href="#">Monica Eshihanda</Navbar.Brand>
             <Navbar.Toggle aria-controls='navbar'/>
             <Navbar.Collapse id='navbar'>
                 <Nav className='ms-3 fw-bold'>
