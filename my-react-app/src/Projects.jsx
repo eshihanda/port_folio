@@ -2,7 +2,10 @@ import React from 'react';
 import './Styles/Projects.css';
 import keja from './assets/kejaprime.jpeg';
 import shopi from './assets/shopi.jpeg';
+import share from './assets/share.jpeg';
 import shec from './assets/shec.jpeg';
+
+
 
 const Projects = () => {
   return (
@@ -38,6 +41,21 @@ const Projects = () => {
                   in their local communities and buy from sellers. The project enables easy access to local products, promoting local e-commerce and convinience.
                 </p>
                 <a href="https://shop-mtaani-742u.vercel.app/" className='btn btn-light btn-sm' target="_blank" rel="noopener noreferrer"> View project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='col-md-4 mb-4'>
+          <div className='project-card'>
+            <img src={share} alt="shareitall website" className='project-img' />
+            <div className='project-overlay'>
+              <div className='content'>
+                <h5>ShareIt_All</h5>
+                <p>I built this project using React, Java Script, boostrap, and CSS. Basically, it is all about selling and bying used items.
+                  With this platform, a user can showcase their used items they are willing to resell at a cheaper prices.
+                  There is also the option of free items, which is unique about this website becuase it has a social aspect of helping the needy.
+                </p>
+                <a href="https://shareit-all.vercel.app/" className='btn btn-light btn-sm' target="_blank" rel="noopener noreferrer"> View project</a>
               </div>
             </div>
           </div>
