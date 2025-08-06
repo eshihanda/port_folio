@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="footer-section text-white text-center py-4 mt-auto">
+    <footer className="footer-section text-black text-center py-4 mt-auto">
       <div className="container">
         <p className="mb-3">
           Handcrafted by <strong>Monica Eshihanda</strong> © {new Date().getFullYear()}

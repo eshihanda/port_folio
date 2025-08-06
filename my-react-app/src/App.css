@@ -1,9 +1,9 @@
 body {
-  background: linear-gradient(to right,   #0f2027, #203a43, #2c5364);
+  background-color: #F7CAC9;
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  color: #ffffff;
+  color: #0e0808;
 }
 html {
 scroll-behavior: smooth;

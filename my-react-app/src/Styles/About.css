@@ -1,7 +1,7 @@
 .intro-text {
   font-size: 3rem;
   font-weight: bold;
-  color:white;
+  color:#0e0808;
   animation: slideIn 2s ease-in-out forwards;
   opacity: 0;
 }
