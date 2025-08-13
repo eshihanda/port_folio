@@ -47,24 +47,23 @@
   color: #0e0808;
   box-shadow: none;
 }
-.social-icons .soc {
-  margin-left: 20px;
-
-}
-.social-icons .soc a {
+.social-icons a {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 8px;
   border: 2px solid #c44900;
   border-radius: 50%;
   font-size: 20px;
   color:#0e0808;
-  margin: 0 8px;
+  transition: .3s;
 }
-.social-icons .soc a:hover {
-  background: #c44900;
-  color: #0e0808;
+.social-icons a.btn {
+  border-radius: 20px;
   box-shadow: 0 0 10px #c44900;
+  padding: 10px 30px;
 }
+
 /* Styling the image */
 .about-image .img-items {
   width: 350px;  
