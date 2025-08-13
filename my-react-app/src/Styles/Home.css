@@ -1,17 +1,4 @@
 
-.about-section .row {
-  gap: 40px; /* adds space between text and image */
-}
-@media (max-width: 768px) {
-  .about-section .row {
-    gap: 20px; /* smaller gap for mobile */
-  }
-
-  .about-image .img-items {
-    width: 250px; 
-    height: 250px;
-  }
-}
 .intro-text {
   font-size: 3rem;
   font-weight: bold;
@@ -31,7 +18,6 @@
   }
 }
 .btn {
-  display: inline-block;
   padding: 10px 30px;
   background: #c44900;
   border: 2px solid #c44900;
@@ -46,22 +32,6 @@
   background: transparent;
   color: #0e0808;
   box-shadow: none;
-}
-.social-icons a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px;
-  border: 2px solid #c44900;
-  border-radius: 50%;
-  font-size: 20px;
-  color:#0e0808;
-  transition: .3s;
-}
-.social-icons a.btn {
-  border-radius: 20px;
-  box-shadow: 0 0 10px #c44900;
-  padding: 10px 30px;
 }
 
 /* Styling the image */

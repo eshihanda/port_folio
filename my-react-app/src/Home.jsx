@@ -15,28 +15,8 @@ const Home = () => {
                 <p className='lead my-4'> I am a passionate Frontend Developer from Kenya. I build interactive web applications that are not only clean but allow for seamless user experience.
                 <br />  <br /> My favorite work lies in bringing ideas to life through clean, accessible code; whether it's designing responsive user interfaces with React, writing reusable CSS, or adding interactivity with JavaScript.
                 </p>
-                <div className="social-icons d-flex justify-content-center gap-4 flex-wrap">
-                       <a href="/resume.pdf" download="Monica_Eshihanda_Resume.pdf" className='btn'>Download Resume</a>
-                        <a
-                            href="https://github.com/eshihanda" target="_blank"  rel="noopener noreferrer"  className="text-grey"
-                            >
-                            <FaGithub size={22} />
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/monicah-wamaya-89913714a/" target="_blank" rel="noopener noreferrer"
-                            className="text-blue" >
-                                <FaLinkedin size={22} />
-                        </a>
-                        <a
-                            href="https://x.com/MEshihanda" target="_blank" rel="noopener noreferrer"
-                                className="text-aqua" >
-                                <FaTwitter size={22} />
-                        </a>
-                        <a
-                            href="eshihandamonn@gmail.com" className="text-black" target="_blank"
-                                rel="noopener noreferrer" >
-                            <FaEnvelope size={22} />
-                        </a>
+                <div className='mt-3 '>
+                    <a href="/resume.pdf" download="Monica_Eshihanda_Resume.pdf" className='btn'>Download Resume</a>
                 </div>
             </div>
             <div className='col-md-5 text-center d-none d-md-block pt-3 about-image'>
