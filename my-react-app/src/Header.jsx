@@ -1,21 +1,18 @@
 import React from 'react'
-import {Navbar, Nav, Container} from 'react-bootstrap';
-import './Styles/Header.css'
+import './Styles/Header.css';
 
 const Header = () => {
   return (
-    <Navbar variant="dark" expand="lg" sticky="top" className='custom-navbar'>
-        <Container>
-            <Navbar.Brand style={{ color: '#0e0808' }} href="#">Monica Eshihanda</Navbar.Brand>
-            <Navbar.Toggle aria-controls='navbar'/>
-            <Navbar.Collapse id='navbar'>
-                <Nav className='ms-3 fw-bold'>
-                    <Nav.Link href='#about'>About</Nav.Link>
-                    <Nav.Link href='#projects'>Projects</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Container>
-    </Navbar>
+    <nav className='Topnav'>
+      <a href="#" className='brand'>Portfolio</a>
+      <ul>
+        <li className='active'><a href="#">Home </a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Skills</a></li>
+      </ul>
+
+    </nav>
   )
 }
 

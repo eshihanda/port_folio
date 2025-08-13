@@ -1,0 +1,83 @@
+
+.about-section .row {
+  gap: 40px; /* adds space between text and image */
+}
+@media (max-width: 768px) {
+  .about-section .row {
+    gap: 20px; /* smaller gap for mobile */
+  }
+
+  .about-image .img-items {
+    width: 250px; 
+    height: 250px;
+  }
+}
+.intro-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color:white;
+  animation: slideIn 2s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: #c44900;
+  border: 2px solid #c44900;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #c44900;
+  font-size: 16px;
+  color: #0e0808;
+  font-weight: 600;
+  transition: .5s;
+}
+.btn:hover {
+  background: transparent;
+  color: #0e0808;
+  box-shadow: none;
+}
+.social-icons .soc {
+  margin-left: 20px;
+
+}
+.social-icons .soc a {
+  display: inline-flex;
+  padding: 8px;
+  border: 2px solid #c44900;
+  border-radius: 50%;
+  font-size: 20px;
+  color:#0e0808;
+  margin: 0 8px;
+}
+.social-icons .soc a:hover {
+  background: #c44900;
+  color: #0e0808;
+  box-shadow: 0 0 10px #c44900;
+}
+/* Styling the image */
+.about-image .img-items {
+  width: 350px;  
+  height: 350px;
+  background: #432534;
+  border-radius: 50%;
+  overflow: hidden; /* Hides any overflow */
+  margin: 0 auto;
+}
+
+.about-image .img-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Makes sure image fills circle nicely */
+  border-radius: 50%;
+}
