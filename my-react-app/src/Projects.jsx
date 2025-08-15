@@ -13,7 +13,7 @@ const Projects = () => {
     <div className='top-curve-section'>
 
     </div>
-    <section id='projects' className='projects-section text-center'>
+    <section id='projects' className='projects-section text-center pt-0' >
       <div className='container py-5'>
         <h2 className='mb-4'>My Current Live Projects</h2>
         <p className='lead'>Here are a few projects I have created using my knowledge in React.js</p>

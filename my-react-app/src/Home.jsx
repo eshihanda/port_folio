@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const Home = () => {
   return (
-    <div id='about' className='py-5 mt-5  min-vh-100 about-section' style={{ paddingTop: "100px" }}>
+    <div id='about' className='pt-5 pb-2 mt-5  min-vh-100 about-section' style={{ paddingTop: "100px" }}>
         <div className='row justify-content-center align-items-center'>
         {/* the left part */}
             <div className='col-md-5 d-flex flex-column justify-content-center pt-3 text-center text-md-start'>

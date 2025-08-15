@@ -4,7 +4,7 @@ import './Styles/Header.css';
 const Header = () => {
   return (
     <nav className='Topnav'>
-      <a href="#" className='brand'>Portfolio</a>
+      <a href="#" className='brand'>Eshihanda</a>
       <ul>
         <li className='active'><a href="#">Home </a></li>
         <li><a href="#about">About</a></li>
